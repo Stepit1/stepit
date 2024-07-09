@@ -109,4 +109,3 @@ class Zbor:
 
 # Example usage:
 aeroport = Aeroport("Bucharest Henri Coanda")
-terminal1
