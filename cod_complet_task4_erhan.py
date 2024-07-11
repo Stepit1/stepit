@@ -25,18 +25,24 @@ manager_departments = [
 def show_departments(departments):
     print("Departments Table: ")
     for dept in departments:
-        return f"Department ID: {dept['dept_id']}, Name: {dept['name']}"
-        
+        print(f"Department ID: {dept['dept_id']}, Name: {dept['name']}")
+    
+    print("\n")
+    
 def show_employee_departments(employee_departments):
     print("Employee Departments Table: ")
     for emp_dept in employee_departments:
-        return f"Employee ID: {emp_dept['emp_id']}, Department ID: {emp_dept['dept_id']}"
-        
+        print(f"Employee ID: {emp_dept['emp_id']}, Department ID: {emp_dept['dept_id']})")
+    
+    print("\n")
+    
 def show_manager_departments(manager_departments):
     print("Manager Departments Table: ")
     for mgr_dept in manager_departments:
-        return f"Manager ID: {mgr_dept['mgr_id']}, Department ID: {mgr_dept['dept_id']}"
-
+        print(f"Manager ID: {mgr_dept['mgr_id']}, Department ID: {mgr_dept['dept_id']}")
+    
+    print("\n")
+    
 show_departments(departments)
 show_employee_departments(employee_departments)
 show_manager_departments(manager_departments)
